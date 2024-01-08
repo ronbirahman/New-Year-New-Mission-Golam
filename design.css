@@ -1,0 +1,39 @@
+.main-container {
+    margin: 50px 140px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.container img {
+    width: 100%;
+}
+.container .text-1{
+    position: absolute;
+    color: #FFFFFF;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; /* 131.944% */
+    transform: translate(-50%, -50%);
+}
+.container .text-2{
+    position: absolute;
+    color: #FFFFFF;
+    text-align: center;
+    top: 25%;
+    right: 41%;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+   
