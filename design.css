@@ -40,7 +40,7 @@
     line-height: normal;
 }
 
-/*---------Main Body Design*/
+/*---------Main Body Design-1*/
 
 .main-container-2 {
     margin: 100px 400px;
@@ -87,4 +87,56 @@
     line-height: normal;
     margin-top: 20px;
 }
-
+/*....Main Body Design-3....*/
+.main-container-3 {
+    margin: 50px 140px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+}
+.container-3 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: black;
+    transition: 0.5s;
+  
+}
+.container-3-img-1 {
+    width: 100%;
+    opacity: 0.4;
+    transition: 0.5s;
+}
+.container-3-img-2 {
+    width: 220px;
+    height: 340px;
+    position: absolute;
+    padding-left: 680px;
+    padding-top: 70px;
+}
+.container-3 .text-6{
+    position: absolute;
+    text-align: left;
+    padding-top: 100px ;
+    padding-left: 100px;
+    padding-right: 350px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 60px; /* 137.5% */
+    letter-spacing: 7.04px;
+}
+.container-3 .text-7{
+    position: absolute;
+    text-align: left;
+    padding-top: 230px ;
+    padding-left: 100px;
+    padding-right: 400px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */;
+}
