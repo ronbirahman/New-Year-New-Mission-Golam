@@ -109,11 +109,11 @@
     transition: 0.5s;
 }
 .container-3-img-2 {
-    width: 220px;
-    height: 340px;
+    width: 200px;
+    height: 300px;
     position: absolute;
-    padding-left: 680px;
-    padding-top: 70px;
+    padding-left: 540px;
+    padding-top: 50px;
 }
 .container-3 .text-6{
     position: absolute;
