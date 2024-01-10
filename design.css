@@ -16,7 +16,7 @@
 }
 .container-1 .text-1{
     position: absolute;
-    color: red;
+    color: white;
     text-align: center;
     top: 50%;
     left: 50%;
@@ -337,12 +337,37 @@
 }
 .column-picture-1 {
     float: left;
+    position: relative;
     
 }
 .picture-flex{
     float: inherit;
 }
 
+.overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.h-im-1 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+.column-picture-1:hover .overlay{
+    opacity: 1;
+}
 
 .main-container-8{
 
@@ -497,5 +522,113 @@
     padding-top: 100px;
 
 }
+
+/*--------Main Container-5*/
+
+.main-container-11-1{
+    margin: 50px 140px;
+    position: relative;
+}
+
+.main-container-11-A{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+
+.text-19{
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.text-20{
+    text-align: center;
+    color: black;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-top: 20px;
+}
+.text-21{
+    text-align: center;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    width: 600px;
+    align-self: center;
+    padding-top: 20px;
+}
+
+
+.image-11-2-B{
+    box-sizing: border-box;
+    display: flex;
+   
+}
+.image-11-2{
+    width: 100%;
+    height:150px;
+    padding-top: 330px;
+}
+
+.image-11-1-B{
+    box-sizing: border-box;
+    border: none;
+    width: 320px;
+    height: 320px;
+    top: 248px;
+    left: 839px;
+    position: absolute;
+    
+}
+
+.image-11-1{
+    width: 100%;
+    height: 100%;
+}
+
+.image-11-3-B{
+    box-sizing: border-box;
+    border: none;
+    width: 450px;
+    height: 300px;
+    top: 370px;
+    left: 79px;
+    position: absolute;
+    
+}
+
+.image-11-3{
+    width: 100%;
+    height: 100%;
+}
+
+.image-11-4-B{
+    box-sizing: border-box;
+    border: none;
+    width: 200px;
+    height: 200px;
+    top: 330px;
+    left: 760px;
+    position: absolute;
+    
+}
+
+.image-11-4{
+    width: 100%;
+    height: 100%;
+}
+
 
 
