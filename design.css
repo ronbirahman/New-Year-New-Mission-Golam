@@ -523,7 +523,7 @@
 
 }
 
-/*--------Main Container-5*/
+/*--------Main Container-11*/
 
 .main-container-11-1{
     margin: 50px 140px;
@@ -572,8 +572,9 @@
 
 
 .image-11-2-B{
-    box-sizing: border-box;
     display: flex;
+    box-sizing: border-box;
+    
    
 }
 .image-11-2{
